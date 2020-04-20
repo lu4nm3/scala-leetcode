@@ -11,6 +11,10 @@ for a powerful, type-safe language that scales with your needs.
 
 ## Table of Contents
 
+Each problem provides a solution in both Markdown for easy viewing and as an application object which allows you to 
+execute the code your favorite Scala environment. In addition, the `utils` module provides additional helper classes 
+that are used throughout different problems. 
+
 | Question                                                                   | Difficulty | Code                                               |
 | -----------------------------------------------------------------------    | ---------- | -------------------------------------------------- |
 | [Find the single number in an array of integers](gendocs/single-number.md) | Easy       | [link](src/main/scala/problems/SingleNumber.scala) |
