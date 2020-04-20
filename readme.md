@@ -11,7 +11,7 @@ for a powerful, type-safe language that scales with your needs.
 
 ## Table of Contents
 
-| Question                                                                | Difficulty | Code                                               |
-| ----------------------------------------------------------------------- | ---------- | -------------------------------------------------- |
+| Question                                                                   | Difficulty | Code                                               |
+| -----------------------------------------------------------------------    | ---------- | -------------------------------------------------- |
 | [Find the single number in an array of integers](gendocs/single-number.md) | Easy       | [link](src/main/scala/problems/SingleNumber.scala) |
  
