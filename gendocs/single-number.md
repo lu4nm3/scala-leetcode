@@ -1,25 +1,25 @@
-### Problem:
+## Problem:
 
 Given a non-empty array of integers, every element appears twice except for one. Find that single one.
 
 **Note:** Your algorithm should have a linear runtime complexity. Could you implement it without using extra memory?
 
-#### Example 1:
+### Example 1:
 
 ```
 Input: [2,2,1]
 Output: 1
 ```
 
-#### Example 2:
+### Example 2:
 ```
 Input: [4,1,2,1,2]
 Output: 4
 ```
 
-### Solution:
+## Solution:
 
-#### Using a hash map
+### Using a hash map
 
 We can use a hash map to keep track of which numbers are duplicates.
 
@@ -43,7 +43,7 @@ findSingleNumberWithMap(List(4,1,2,1,2))
 // res1: Int = 4
 ```
 
-#### Using bit operations
+### Using bit operations
 
 We can use the XOR bit operation. In this case, there are 2 rules to remember:
 
