@@ -15,7 +15,7 @@ Each problem provides a solution in both Markdown for easy viewing and as an app
 execute the code your favorite Scala environment. In addition, the `utils` module provides additional helper classes 
 that are used throughout different problems. 
 
-| Question                                                                   | Difficulty | Code                                               |
-| -----------------------------------------------------------------------    | ---------- | -------------------------------------------------- |
-| [Find the single number in an array of integers](gendocs/single-number.md) | Easy       | [link](src/main/scala/problems/SingleNumber.scala) |
- 
+| Question                                                                  | Difficulty | Code                                                    |
+| ------------------------------------------------------------------------- | ---------- | ------------------------------------------------------- |
+| [Single Number](gendocs/single-number.md)                                 | Easy       | [link](src/main/scala/problems/SingleNumber.scala)      |
+| [Best Time to Buy and Sell Stock](gendocs/best-time-to-buy-sell-stock.md) | Easy       | [link](src/main/scala/problems/BestTimeToBuySellStock$) |
