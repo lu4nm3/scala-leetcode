@@ -19,3 +19,4 @@ that are used throughout different problems.
 | ------------------------------------------------------------------------- | ---------- | ------------------------------------------------------------ |
 | [Single Number](gendocs/single-number.md)                                 | Easy       | [link](src/main/scala/problems/SingleNumber.scala)           |
 | [Best Time to Buy and Sell Stock](gendocs/best-time-to-buy-sell-stock.md) | Easy       | [link](src/main/scala/problems/BestTimeToBuySellStock.scala) |
+| [Decode Ways](gendocs/decode-ways.md)                                     | Medium     | [link](src/main/scala/problems/DecodeWays.scala)             |

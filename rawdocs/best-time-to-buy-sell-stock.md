@@ -4,7 +4,7 @@ Say you have an array for which the ith element is the price of a given stock on
 
 If you were only permitted to complete at most one transaction (i.e., buy one and sell one share of the stock), design an algorithm to find the maximum profit.
 
-Note that you cannot sell a stock before you buy one.
+**Note:** that you cannot sell a stock before you buy one.
 
 ### Example 1:
 
@@ -75,6 +75,10 @@ maxProfit(Array(7, 1, 5, 8, 3, 0, 6, 4, 7, 9))
 ```
 
 ### A more fp approach
+
+We can take a more functional programming approach by folding the array of prices over the state that we need to keep
+track of. Whereas before we used 5 separate variables to do this, we can group these into a `Tracker` data type which 
+makes it easier when folding.
 
 ```scala mdoc
 case class Tracker(buyOnIndex: Int = -1,
