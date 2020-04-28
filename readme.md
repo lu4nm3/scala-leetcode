@@ -23,4 +23,4 @@ that are used throughout different problems.
 | [Best Time to Buy and Sell Stock](gendocs/best-time-to-buy-sell-stock.md) | Easy       | [link](src/main/scala/problems/BestTimeToBuySellStock.scala) |
 | [Decode Ways](gendocs/decode-ways.md)                                     | Medium     | [link](src/main/scala/problems/DecodeWays.scala)             |
 | [Swap Nodes in Pairs](gendocs/swap-nodes-in-pairs.md)                     | Medium     | [link](src/main/scala/problems/SwapNodesInPairs.scala)       |
-
+| [Two Sum](gendocs/two-sum.md)                                             | Easy       | [link](src/main/scala/problems/TwoSum.scala)                 |

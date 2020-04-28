@@ -11,7 +11,7 @@ A message containing letters from A-Z is being encoded to numbers using the foll
 
 Given a non-empty string containing only digits, determine the total number of ways to decode it.
 
-### Example 1:
+### Example 1
 
 ```
 Input: "12"
@@ -19,7 +19,7 @@ Output: 2
 Explanation: It could be decoded as "AB" (1 2) or "L" (12).
 ```
 
-### Example 2:
+### Example 2
 
 ```
 Input: "226"
@@ -27,7 +27,7 @@ Output: 3
 Explanation: It could be decoded as "BZ" (2 26), "VF" (22 6), or "BBF" (2 2 6).
 ```
 
-## Solution:
+## Solution
 
 First, we'll use a Map for our number -> letter mapping:
  
@@ -126,10 +126,10 @@ def decode(encodedStr: String): Array[String] = {
 ```
 
 ```scala
-decode("12").mkString(", ")
-// res0: String = "AB, L"
-decode("226").mkString(", ")
-// res1: String = "BBF, BZ, VF"
+decode("12")
+// res0: Array[String] = Array("AB", "L")
+decode("226")
+// res1: Array[String] = Array("BBF", "BZ", "VF")
 ```
 
 ### A more fp approach
@@ -172,8 +172,8 @@ def decodeFp(encodedStr: String): Array[String] = {
 ```
 
 ```scala
-decodeFp("12").mkString(", ")
-// res2: String = "AB, L"
-decodeFp("226").mkString(", ")
-// res3: String = "BBF, BZ, VF"
+decodeFp("12")
+// res2: Array[String] = Array("AB", "L")
+decodeFp("226")
+// res3: Array[String] = Array("BBF", "BZ", "VF")
 ```

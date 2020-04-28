@@ -11,7 +11,7 @@ A message containing letters from A-Z is being encoded to numbers using the foll
 
 Given a non-empty string containing only digits, determine the total number of ways to decode it.
 
-### Example 1:
+### Example 1
 
 ```
 Input: "12"
@@ -19,7 +19,7 @@ Output: 2
 Explanation: It could be decoded as "AB" (1 2) or "L" (12).
 ```
 
-### Example 2:
+### Example 2
 
 ```
 Input: "226"
@@ -27,7 +27,7 @@ Output: 3
 Explanation: It could be decoded as "BZ" (2 26), "VF" (22 6), or "BBF" (2 2 6).
 ```
 
-## Solution:
+## Solution
 
 First, we'll use a Map for our number -> letter mapping:
  
@@ -98,8 +98,8 @@ def decode(encodedStr: String): Array[String] = {
 ```
 
 ```scala mdoc
-decode("12").mkString(", ")
-decode("226").mkString(", ")
+decode("12")
+decode("226")
 ```
 
 ### A more fp approach
@@ -142,6 +142,6 @@ def decodeFp(encodedStr: String): Array[String] = {
 ```
 
 ```scala mdoc
-decodeFp("12").mkString(", ")
-decodeFp("226").mkString(", ")
+decodeFp("12")
+decodeFp("226")
 ```
